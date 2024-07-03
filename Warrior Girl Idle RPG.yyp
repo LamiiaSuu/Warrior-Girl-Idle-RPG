@@ -34,6 +34,7 @@
   },
   "name":"Warrior Girl Idle RPG",
   "resources":[
+    {"id":{"name":"objWarrior_Girl","path":"objects/objWarrior_Girl/objWarrior_Girl.yy",},},
     {"id":{"name":"Main_Game","path":"rooms/Main_Game/Main_Game.yy",},},
     {"id":{"name":"sprWarrior_Idle","path":"sprites/sprWarrior_Idle/sprWarrior_Idle.yy",},},
     {"id":{"name":"sprWarrior_Run","path":"sprites/sprWarrior_Run/sprWarrior_Run.yy",},},
