@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":2,
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -36,6 +36,7 @@
   "resources":[
     {"id":{"name":"objWarrior_Girl","path":"objects/objWarrior_Girl/objWarrior_Girl.yy",},},
     {"id":{"name":"Main_Game","path":"rooms/Main_Game/Main_Game.yy",},},
+    {"id":{"name":"scrWarrior_State","path":"scripts/scrWarrior_State/scrWarrior_State.yy",},},
     {"id":{"name":"sprWarrior_Idle","path":"sprites/sprWarrior_Idle/sprWarrior_Idle.yy",},},
     {"id":{"name":"sprWarrior_Run","path":"sprites/sprWarrior_Run/sprWarrior_Run.yy",},},
   ],

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scrWarrior_State",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scrWarrior_State",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
