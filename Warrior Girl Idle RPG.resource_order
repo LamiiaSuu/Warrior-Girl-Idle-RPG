@@ -1,4 +1,11 @@
 {
-  "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "FolderOrderSettings":[
+    {"name":"Oak Woods Background","order":1,"path":"folders/Sprites/Oak Woods Background.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"objCamera","order":2,"path":"objects/objCamera/objCamera.yy",},
+    {"name":"objParallax","order":1,"path":"objects/objParallax/objParallax.yy",},
+    {"name":"sprOakWoods_Background_layer_2","order":1,"path":"sprites/sprOakWoods_Background_layer_2/sprOakWoods_Background_layer_2.yy",},
+    {"name":"sprOakWoods_Background_layer_3","order":2,"path":"sprites/sprOakWoods_Background_layer_3/sprOakWoods_Background_layer_3.yy",},
+  ],
 }
