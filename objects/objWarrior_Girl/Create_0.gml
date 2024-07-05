@@ -36,6 +36,7 @@ x = camera_get_view_x(view_camera[0])+originalX;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 4E851332
+/// @DnDHash : 777FB771
+/// @DnDArgument : "expr" "SPEED_FOR_BACKGROUND.STOP"
 /// @DnDArgument : "var" "speed_for_background"
-speed_for_background = 0;
+speed_for_background = SPEED_FOR_BACKGROUND.STOP;

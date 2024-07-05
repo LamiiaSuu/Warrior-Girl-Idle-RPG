@@ -1,10 +1,14 @@
 {
   "FolderOrderSettings":[
+    {"name":"Coins","order":3,"path":"folders/Sprites/Coins.yy",},
     {"name":"Oak Woods Background","order":1,"path":"folders/Sprites/Oak Woods Background.yy",},
+    {"name":"Warrior_Girl","order":2,"path":"folders/Sprites/Warrior_Girl.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"objOak_Parallax","order":3,"path":"objects/objOak_Parallax/objOak_Parallax.yy",},
+    {"name":"scrWarrior_Speed_For_Background","order":1,"path":"scripts/scrWarrior_Speed_For_Background/scrWarrior_Speed_For_Background.yy",},
     {"name":"sprOakWoods_Background_layer_2","order":1,"path":"sprites/sprOakWoods_Background_layer_2/sprOakWoods_Background_layer_2.yy",},
     {"name":"sprOakWoods_Background_layer_3","order":2,"path":"sprites/sprOakWoods_Background_layer_3/sprOakWoods_Background_layer_3.yy",},
+    {"name":"sprWarrior_Run","order":1,"path":"sprites/sprWarrior_Run/sprWarrior_Run.yy",},
   ],
 }

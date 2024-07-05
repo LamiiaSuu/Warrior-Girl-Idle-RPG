@@ -72,9 +72,9 @@ if(state == WARRIOR_STATE.RUNNING_RIGHT)
 	/// @DnDVersion : 1
 	/// @DnDHash : 3A1351FD
 	/// @DnDParent : 6B1F3391
-	/// @DnDArgument : "expr" "4"
+	/// @DnDArgument : "expr" "SPEED_FOR_BACKGROUND.STANDARD"
 	/// @DnDArgument : "var" "speed_for_background"
-	speed_for_background = 4;
+	speed_for_background = SPEED_FOR_BACKGROUND.STANDARD;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -124,7 +124,7 @@ if(state == WARRIOR_STATE.RUNNING_LEFT)
 	/// @DnDVersion : 1
 	/// @DnDHash : 7D979F6E
 	/// @DnDParent : 4D2FD4EA
-	/// @DnDArgument : "expr" "4"
+	/// @DnDArgument : "expr" "SPEED_FOR_BACKGROUND.STANDARD"
 	/// @DnDArgument : "var" "speed_for_background"
-	speed_for_background = 4;
+	speed_for_background = SPEED_FOR_BACKGROUND.STANDARD;
 }

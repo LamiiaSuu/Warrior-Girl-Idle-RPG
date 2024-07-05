@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scrWarrior_Speed_For_Background",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scrWarrior_Speed_For_Background",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

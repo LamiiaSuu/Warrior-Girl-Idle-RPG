@@ -32,8 +32,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"Warrior_Girl",
+    "path":"folders/Sprites/Warrior_Girl.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
