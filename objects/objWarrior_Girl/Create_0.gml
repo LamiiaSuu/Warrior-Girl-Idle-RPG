@@ -33,3 +33,9 @@ originalY = self.y;
 /// @DnDArgument : "expr" "camera_get_view_x(view_camera[0])+originalX"
 /// @DnDArgument : "var" "x"
 x = camera_get_view_x(view_camera[0])+originalX;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 4E851332
+/// @DnDArgument : "var" "speed_for_background"
+speed_for_background = 0;

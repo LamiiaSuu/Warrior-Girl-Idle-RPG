@@ -35,8 +35,7 @@
   },
   "name":"Warrior Girl Idle RPG",
   "resources":[
-    {"id":{"name":"objCamera","path":"objects/objCamera/objCamera.yy",},},
-    {"id":{"name":"objParallax","path":"objects/objParallax/objParallax.yy",},},
+    {"id":{"name":"objOak_Parallax","path":"objects/objOak_Parallax/objOak_Parallax.yy",},},
     {"id":{"name":"objWarrior_Girl","path":"objects/objWarrior_Girl/objWarrior_Girl.yy",},},
     {"id":{"name":"Main_Game","path":"rooms/Main_Game/Main_Game.yy",},},
     {"id":{"name":"scrWarrior_State","path":"scripts/scrWarrior_State/scrWarrior_State.yy",},},
