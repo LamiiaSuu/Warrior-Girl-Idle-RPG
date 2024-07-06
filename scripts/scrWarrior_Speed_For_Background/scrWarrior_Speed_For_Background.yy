@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scrWarrior_Speed_For_Background",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Enums",
+    "path":"folders/Scripts/Enums.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

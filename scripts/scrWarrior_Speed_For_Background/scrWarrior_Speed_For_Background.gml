@@ -3,5 +3,5 @@ enum SPEED_FOR_BACKGROUND{
 STOP = 0,
 SLOW = 2,
 STANDARD = 4,
-FAST = 6
+FAST = 5
 }

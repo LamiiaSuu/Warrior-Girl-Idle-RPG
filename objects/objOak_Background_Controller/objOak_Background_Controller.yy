@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"objOak_Parallax",
+  "%Name":"objOak_Background_Controller",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"objOak_Parallax",
+  "name":"objOak_Background_Controller",
   "overriddenProperties":[],
   "parent":{
-    "name":"Background_Parallax",
-    "path":"folders/Objects/Background/Oak_Woods/Background_Parallax.yy",
+    "name":"Oak_Woods",
+    "path":"folders/Objects/Background/Oak_Woods.yy",
   },
   "parentObjectId":null,
   "persistent":false,
