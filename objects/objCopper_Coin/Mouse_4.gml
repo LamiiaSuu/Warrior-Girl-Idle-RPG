@@ -19,7 +19,15 @@ player_stats.gold += 1;
 /// @DnDHash : 08ABFB8E
 /// @DnDArgument : "xpos" "mouse_x+65+(random_range(-15, 15))"
 /// @DnDArgument : "ypos" "mouse_y-30"
+/// @DnDArgument : "var" "coin_particle"
 /// @DnDArgument : "objectid" "objCopper_Coin_Mini"
 /// @DnDArgument : "layer" ""Coin_Particles""
 /// @DnDSaveInfo : "objectid" "objCopper_Coin_Mini"
-instance_create_layer(mouse_x+65+(random_range(-15, 15)), mouse_y-30, "Coin_Particles", objCopper_Coin_Mini);
+coin_particle = instance_create_layer(mouse_x+65+(random_range(-15, 15)), mouse_y-30, "Coin_Particles", objCopper_Coin_Mini);
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 3A330520
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "var" "coin_particle.gold_added"
+coin_particle.gold_added = 1;

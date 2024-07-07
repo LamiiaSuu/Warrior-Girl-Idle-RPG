@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scrWarrior_State",
   "parent":{
-    "name":"Enums",
-    "path":"folders/Scripts/Enums.yy",
+    "name":"Warrior_Girl",
+    "path":"folders/Scripts/Enums/Warrior_Girl.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

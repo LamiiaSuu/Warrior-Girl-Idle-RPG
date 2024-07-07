@@ -1,0 +1,5 @@
+
+enum global_enemy_states{
+FIGHT_APPROACHING_SPEED_MODIFIER = 7,
+
+}

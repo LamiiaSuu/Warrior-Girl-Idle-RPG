@@ -36,3 +36,13 @@ draw_text(x + 0, y + 200, string("Speed:  ") + string(real(objWarrior_Girl.speed
 /// @DnDArgument : "caption" ""State: ""
 /// @DnDArgument : "var" "objWarrior_Girl.state"
 draw_text(x + 0, y + 300, string("State: ") + string(objWarrior_Girl.state));
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDVersion : 1
+/// @DnDHash : 39293039
+/// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y" "400"
+/// @DnDArgument : "y_relative" "1"
+/// @DnDArgument : "caption" ""inFight: ""
+/// @DnDArgument : "var" "objWarrior_Girl.inFight"
+draw_text(x + 0, y + 400, string("inFight: ") + string(objWarrior_Girl.inFight));

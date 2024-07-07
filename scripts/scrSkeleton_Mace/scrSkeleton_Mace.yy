@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scrSkeleton_Mace",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scrSkeleton_Mace",
+  "parent":{
+    "name":"Skeleton_Mace",
+    "path":"folders/Scripts/Enums/Enemies/Skeleton_Mace.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

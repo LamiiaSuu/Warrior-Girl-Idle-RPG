@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scrGlobal_Enemy_States",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scrGlobal_Enemy_States",
+  "parent":{
+    "name":"Enemies",
+    "path":"folders/Scripts/Enums/Enemies.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
