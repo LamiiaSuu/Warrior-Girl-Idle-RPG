@@ -1,8 +1,8 @@
 {
   "FolderOrderSettings":[
     {"name":"Background","order":5,"path":"folders/Objects/Background.yy",},
-    {"name":"Background_Parallax","order":1,"path":"folders/Objects/Background/Oak_Woods/Background_Parallax.yy",},
     {"name":"Oak_Woods","order":2,"path":"folders/Objects/Background/Oak_Woods.yy",},
+    {"name":"Background_Parallax","order":1,"path":"folders/Objects/Background/Oak_Woods/Background_Parallax.yy",},
     {"name":"Character","order":1,"path":"folders/Objects/Character.yy",},
     {"name":"Coins","order":3,"path":"folders/Objects/Coins.yy",},
     {"name":"Game","order":4,"path":"folders/Objects/Game.yy",},
