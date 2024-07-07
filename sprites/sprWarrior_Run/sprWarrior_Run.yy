@@ -33,7 +33,7 @@
   "origin":4,
   "parent":{
     "name":"Warrior_Girl",
-    "path":"folders/Sprites/Warrior_Girl.yy",
+    "path":"folders/Sprites/Characters/Warrior_Girl.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
