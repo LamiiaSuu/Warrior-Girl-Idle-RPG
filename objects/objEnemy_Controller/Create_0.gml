@@ -20,3 +20,10 @@ function getEnemyDeathInitiated() constructor
 	}
 	
 }
+
+function setInFight(inFight){
+self.inFight = true
+
+}
+
+enemy_spawn_distance_orig = enemy_spawn_distance

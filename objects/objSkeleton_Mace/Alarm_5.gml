@@ -1,1 +1,0 @@
-sprite_index = sprSkeleton_Mace_Idle

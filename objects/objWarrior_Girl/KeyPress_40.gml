@@ -1,2 +1,0 @@
-//state = WARRIOR_STATE.IDLE;
-

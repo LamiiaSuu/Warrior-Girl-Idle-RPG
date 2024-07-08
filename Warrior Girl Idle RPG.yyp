@@ -60,7 +60,6 @@
     {"id":{"name":"objEnemy_Controller","path":"objects/objEnemy_Controller/objEnemy_Controller.yy",},},
     {"id":{"name":"objEnemy_Position_X","path":"objects/objEnemy_Position_X/objEnemy_Position_X.yy",},},
     {"id":{"name":"objEnemy_Spawner","path":"objects/objEnemy_Spawner/objEnemy_Spawner.yy",},},
-    {"id":{"name":"objHealthbar","path":"objects/objHealthbar/objHealthbar.yy",},},
     {"id":{"name":"objOak_Background_Controller","path":"objects/objOak_Background_Controller/objOak_Background_Controller.yy",},},
     {"id":{"name":"objOak_Parallax","path":"objects/objOak_Parallax/objOak_Parallax.yy",},},
     {"id":{"name":"objSkeleton_Mace","path":"objects/objSkeleton_Mace/objSkeleton_Mace.yy",},},

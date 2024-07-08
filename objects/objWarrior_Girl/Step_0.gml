@@ -14,18 +14,19 @@ case WARRIOR_STATE.IDLE:
 	speed_for_background = SPEED_FOR_BACKGROUND.STOP;
 	image_speed = 1;
 	
-	if(inFight){
+	if(fighting){
 	if (attack_timer > 0) {
     attack_timer--;
 	}
 	if (attack_timer <= 0) {
     state = WARRIOR_STATE.ATTACK_FULL
+	attack_delay = room_speed / attack_speed;
     attack_timer = attack_delay;
 	attack_one = false;
 	attack_two = false;
 	}
 		if(objEnemy_Controller.getEnemyDeathInitiated()){
-	inFight = false;
+	fighting = false;
 	}
 	
 
@@ -56,9 +57,9 @@ case WARRIOR_STATE.RUNNING_RIGHT:
 	image_speed = 1;
 	speed_for_background = SPEED_FOR_BACKGROUND.STANDARD/2;
 	
-	if(objEnemy_Controller.enemy_exists && !keyboard_check(vk_right) && !inFight && !objEnemy_Controller.getEnemyDeathInitiated()){
-		inFight = true;
-		objEnemy_Controller.inFight = true;
+	if(objEnemy_Controller.enemy_exists && !keyboard_check(vk_right) && !fighting && !objEnemy_Controller.getEnemyDeathInitiated()){
+		fighting = true;
+		objEnemy_Controller.setInFight(true)
 		state = WARRIOR_STATE.IDLE
 	}
 	
@@ -101,12 +102,12 @@ case WARRIOR_STATE.ATTACK_FULL:
 		
 	}
 	if (image_index >= 6 && !attack_one){
-		objEnemy_Controller.enemyTakeDamage(player_stats.attack_damage)
+		objEnemy_Controller.enemyTakeDamage(attack_damage)
 		attack_one = true;
 	}
 	
 	if (image_index >= 10 && !attack_two){
-		objEnemy_Controller.enemyTakeDamage(player_stats.attack_damage)
+		objEnemy_Controller.enemyTakeDamage(attack_damage)
 		attack_two = true;
 	}
 	image_speed = 1;

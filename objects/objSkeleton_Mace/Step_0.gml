@@ -30,7 +30,7 @@ if(objEnemy_Controller.inFight && !fight_positioned){
 	// Update the object's position
 	x += move_x;
 	y += move_y;
-			if(abs(x - target_x) < 1.5){
+			if(abs(x - target_x) < 2.5){
 			fight_positioned = true;
 			state = skeleton_mace_state.IDLE}
 }else{
@@ -144,7 +144,7 @@ case skeleton_mace_state.APPROACHING:
 	{
 		sprite_index = sprSkeleton_Mace_Run;
 		image_index = 0;
-		if(objWarrior_Girl.inFight)
+		if(objEnemy_Controller.inFight)
 			{
 			state = skeleton_mace_state.IDLE;
 			}
@@ -156,9 +156,9 @@ case skeleton_mace_state.APPROACHING:
 	}
 	image_speed = 1;
 	
-	if(objWarrior_Girl.x < x){
+	if(player_stats.getCharacterX() < x){
 		
-		x-=walk_speed+objWarrior_Girl.speed_for_background*4;
+		x-=walk_speed+player_stats.getSpeedForBackground()*4;
 	
 		if(self.image_xscale > 0)
 			{
@@ -170,7 +170,7 @@ case skeleton_mace_state.APPROACHING:
 			{
 				self.image_xscale = -(self.image_xscale);
 			}
-		x+=walk_speed-objWarrior_Girl.speed_for_background*4;
+		x+=walk_speed-player_stats.getSpeedForBackground()*4;
 	}
 	
 break;

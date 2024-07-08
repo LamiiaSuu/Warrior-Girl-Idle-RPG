@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 7941706C
-/// @DnDArgument : "expr" "room_speed / player_stats.attack_speed;"
+/// @DnDArgument : "expr" "room_speed / attack_speed;"
 /// @DnDArgument : "var" "attack_delay"
-attack_delay = room_speed / player_stats.attack_speed;;
+attack_delay = room_speed / attack_speed;;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
