@@ -15,8 +15,8 @@
     {"name":"Coins","order":3,"path":"folders/Sprites/Coins.yy",},
     {"name":"Enemies","order":5,"path":"folders/Sprites/Enemies.yy",},
     {"name":"Skeleton_Mace","order":1,"path":"folders/Sprites/Enemies/Skeleton_Mace.yy",},
-    {"name":"UI","order":6,"path":"folders/Sprites/UI.yy",},
     {"name":"Oak Woods Background","order":1,"path":"folders/Sprites/Oak Woods Background.yy",},
+    {"name":"UI","order":6,"path":"folders/Sprites/UI.yy",},
     {"name":"Enemies","order":1,"path":"folders/Tile Sets/Enemies.yy",},
   ],
   "ResourceOrderSettings":[
