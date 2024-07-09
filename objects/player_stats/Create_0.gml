@@ -5,6 +5,11 @@ function addGold(amount){
 
 }
 
+function takeGold(amount){
+	gold -= amount
+
+}
+
 function getGold(){
 	return gold
 

@@ -6,6 +6,14 @@ if(next_upgrade_affordable)
 {
 	/// @DnDAction : YoYo Games.Common.Function_Call
 	/// @DnDVersion : 1
+	/// @DnDHash : 022D91EC
+	/// @DnDParent : 263624DD
+	/// @DnDArgument : "function" "player_stats.takeGold"
+	/// @DnDArgument : "arg" "next_upgrade_cost"
+	player_stats.takeGold(next_upgrade_cost);
+
+	/// @DnDAction : YoYo Games.Common.Function_Call
+	/// @DnDVersion : 1
 	/// @DnDHash : 605A3D10
 	/// @DnDParent : 263624DD
 	/// @DnDArgument : "function" "player_stats.level_up_coin"
