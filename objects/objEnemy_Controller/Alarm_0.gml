@@ -1,0 +1,1 @@
+enemy_id.image_blend = c_white

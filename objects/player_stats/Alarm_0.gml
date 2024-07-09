@@ -1,0 +1,1 @@
+objWarrior_Girl.image_blend = c_white

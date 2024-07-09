@@ -46,6 +46,7 @@
     {"name":"sprSkeleton_Mace_Run","order":2,"path":"sprites/sprSkeleton_Mace_Run/sprSkeleton_Mace_Run.yy",},
     {"name":"sprWarrior_Attack","order":2,"path":"sprites/sprWarrior_Attack/sprWarrior_Attack.yy",},
     {"name":"sprWarrior_Dash_Attack","order":3,"path":"sprites/sprWarrior_Dash_Attack/sprWarrior_Dash_Attack.yy",},
+    {"name":"sprWarrior_Hurt","order":5,"path":"sprites/sprWarrior_Hurt/sprWarrior_Hurt.yy",},
     {"name":"sprWarrior_Run","order":1,"path":"sprites/sprWarrior_Run/sprWarrior_Run.yy",},
     {"name":"sprWarrior_Slide","order":4,"path":"sprites/sprWarrior_Slide/sprWarrior_Slide.yy",},
     {"name":"UI_Background","order":1,"path":"sprites/UI_Background/UI_Background.yy",},

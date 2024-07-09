@@ -4,8 +4,14 @@ function enemyTakeDamage(damage) constructor
 		if(enemy_id.hp - damage <= 0){
 			enemy_id.hp = 0
 		}else{
-		enemy_id.hp -= damage
-		enemy_id.state = skeleton_mace_state.HURT
+			enemy_id.hp -= damage
+		if(enemy_id.state != skeleton_mace_state.ATTACK){
+			enemy_id.state = skeleton_mace_state.HURT
+		}else{
+			enemy_id.image_blend = c_red
+			alarm_set(0,5)
+		}
+		
 		
 		}
 	}

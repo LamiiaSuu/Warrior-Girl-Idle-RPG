@@ -60,6 +60,22 @@ case WARRIOR_STATE.RUNNING_RIGHT:
 	
 break;
 
+case WARRIOR_STATE.HURT: 	
+
+	if(!(sprite_index == sprWarrior_Hurt))
+	{
+		sprite_index = sprWarrior_Hurt;
+		image_index = 0;
+		
+	}
+	
+	if (image_index >= image_number-1)
+		{
+			state = WARRIOR_STATE.IDLE
+		}
+
+break;
+
 
 case WARRIOR_STATE.SPRINTING_RIGHT:
 

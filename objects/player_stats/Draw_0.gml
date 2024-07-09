@@ -46,3 +46,13 @@ draw_text(x + 0, y + 300, string("State: ") + string(player_stats.getState()));
 /// @DnDArgument : "caption" ""Fighting: ""
 /// @DnDArgument : "var" "player_stats.getFighting()"
 draw_text(x + 0, y + 400, string("Fighting: ") + string(player_stats.getFighting()));
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDVersion : 1
+/// @DnDHash : 694D4D42
+/// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y" "500"
+/// @DnDArgument : "y_relative" "1"
+/// @DnDArgument : "caption" ""HP: ""
+/// @DnDArgument : "var" "objWarrior_Girl.hp"
+draw_text(x + 0, y + 500, string("HP: ") + string(objWarrior_Girl.hp));

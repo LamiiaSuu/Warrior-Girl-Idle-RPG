@@ -39,6 +39,8 @@ if(objEnemy_Controller.inFight && !fight_positioned){
 //States / Animation States
 switch(state){
 	
+
+	
 	
 case skeleton_mace_state.IDLE: 
 
@@ -50,6 +52,14 @@ case skeleton_mace_state.IDLE:
 	}
 	image_speed = 1;
 	
+	if (attack_timer > 0) {
+		attack_timer--;
+	}
+	
+	if (attack_timer <= 0) {
+		attack()
+		reset_attacks()
+	}
 	
 break;
 
@@ -136,6 +146,33 @@ case skeleton_mace_state.WALKING_LEFT:
 	}
 	image_speed = 1;
 	
+break;
+
+case skeleton_mace_state.ATTACK:
+
+	if(!(sprite_index == sprSkeleton_Mace_Attack))
+	{
+		sprite_index = sprSkeleton_Mace_Attack;
+		image_index = 0;
+		
+	}
+	
+	if (image_index >= 5 && !attack_one){
+		player_stats.take_damage(attack_damage)
+		attack_one = true;
+	}
+	
+	if (image_index >= 9 && !attack_two){
+		player_stats.take_damage(attack_damage)
+		attack_two = true;
+	}
+	
+		if (image_index >= image_number-1)
+		{
+			state = skeleton_mace_state.IDLE
+		}
+
+
 break;
 
 case skeleton_mace_state.APPROACHING:
