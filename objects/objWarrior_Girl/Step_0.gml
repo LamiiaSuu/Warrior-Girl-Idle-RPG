@@ -19,11 +19,8 @@ case WARRIOR_STATE.IDLE:
     attack_timer--;
 	}
 	if (attack_timer <= 0) {
-    state = WARRIOR_STATE.ATTACK_FULL
-	attack_delay = room_speed / attack_speed;
-    attack_timer = attack_delay;
-	attack_one = false;
-	attack_two = false;
+	full_attack()
+	reset_attacks()
 	}
 		if(objEnemy_Controller.getEnemyDeathInitiated()){
 	fighting = false;
@@ -58,15 +55,20 @@ case WARRIOR_STATE.RUNNING_RIGHT:
 	speed_for_background = SPEED_FOR_BACKGROUND.STANDARD/2;
 	
 	if(objEnemy_Controller.enemy_exists && !keyboard_check(vk_right) && !fighting && !objEnemy_Controller.getEnemyDeathInitiated()){
-		fighting = true;
-		objEnemy_Controller.setInFight(true)
-		state = WARRIOR_STATE.IDLE
+		trigger_fight()
 	}
 	
 break;
 
 
 case WARRIOR_STATE.SPRINTING_RIGHT:
+
+		if(!(sprite_index == sprWarrior_Run))
+	{
+		sprite_index = sprWarrior_Run;
+		image_index = 0;
+
+	}
 
 	speed_for_background = SPEED_FOR_BACKGROUND.FAST/2;
 
@@ -122,6 +124,27 @@ case WARRIOR_STATE.ATTACK_FULL:
 	
 break;
 
+case WARRIOR_STATE.SLIDE:
+	if(!(sprite_index == sprWarrior_Slide))
+	{
+		sprite_index = sprWarrior_Slide;
+		image_index = 0;
+		
+	}
+	
+		if (image_index >= image_number-1)
+	{
+		
+		if(keyboard_check(vk_right)){
+		state = WARRIOR_STATE.SPRINTING_RIGHT
+		}else{
+		trigger_fight()
+		}
+		
+		
+	}
+
+break;
 
 }
 

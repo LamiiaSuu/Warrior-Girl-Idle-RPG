@@ -1,4 +1,4 @@
 if(keyboard_check(vk_right)){
-// DASH CODE
+state = WARRIOR_STATE.SLIDE
 
 }

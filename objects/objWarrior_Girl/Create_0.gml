@@ -1,19 +1,27 @@
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 7941706C
-/// @DnDArgument : "expr" "room_speed / attack_speed;"
-/// @DnDArgument : "var" "attack_delay"
 attack_delay = room_speed / attack_speed;;
 
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 499F31AE
-/// @DnDArgument : "expr" "attack_delay"
-/// @DnDArgument : "var" "attack_timer"
 attack_timer = attack_delay;
 
-/// @DnDAction : YoYo Games.Instances.Set_Alarm
-/// @DnDVersion : 1
-/// @DnDHash : 640347A3
-/// @DnDArgument : "steps" "45"
 alarm_set(0, 45);
+
+
+function change_sprite(sprite_name){
+// Change loose code to this.
+}
+
+function trigger_fight(){
+		fighting = true;
+		objEnemy_Controller.setInFight(true)
+		state = WARRIOR_STATE.IDLE
+}
+
+function reset_attacks(){
+	attack_delay = room_speed / attack_speed;
+    attack_timer = attack_delay;
+	attack_one = false;
+	attack_two = false;
+}
+
+function full_attack(){
+    state = WARRIOR_STATE.ATTACK_FULL
+}

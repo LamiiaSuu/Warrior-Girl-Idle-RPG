@@ -42,6 +42,7 @@
     {"name":"sprWarrior_Attack","order":2,"path":"sprites/sprWarrior_Attack/sprWarrior_Attack.yy",},
     {"name":"sprWarrior_Dash_Attack","order":3,"path":"sprites/sprWarrior_Dash_Attack/sprWarrior_Dash_Attack.yy",},
     {"name":"sprWarrior_Run","order":1,"path":"sprites/sprWarrior_Run/sprWarrior_Run.yy",},
+    {"name":"sprWarrior_Slide","order":4,"path":"sprites/sprWarrior_Slide/sprWarrior_Slide.yy",},
     {"name":"UI_Background","order":1,"path":"sprites/UI_Background/UI_Background.yy",},
     {"name":"Upgrade_Dark","order":2,"path":"sprites/Upgrade_Dark/Upgrade_Dark.yy",},
     {"name":"Upgrade_Light","order":3,"path":"sprites/Upgrade_Light/Upgrade_Light.yy",},
