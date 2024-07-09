@@ -5,6 +5,11 @@ function addGold(amount){
 
 }
 
+function getGold(){
+	return gold
+
+}
+
 function getCharacterX(){
 	return objWarrior_Girl.x
 
@@ -24,3 +29,10 @@ function getFighting(){
 	return objWarrior_Girl.fighting
 
 }
+
+function level_up_coin(){
+	coin_tier +=1
+
+}
+
+

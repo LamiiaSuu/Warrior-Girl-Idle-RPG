@@ -1,7 +1,10 @@
 {
   "$GMObject":"",
   "%Name":"objUpdate_Light",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"objUpdate_Light",
   "overriddenProperties":[],
@@ -23,7 +26,10 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"next_upgrade_cost","filters":[],"listItems":[],"multiselect":false,"name":"next_upgrade_cost","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"coin_tier_costs.SILVER","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"next_upgrade_affordable","filters":[],"listItems":[],"multiselect":false,"name":"next_upgrade_affordable","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

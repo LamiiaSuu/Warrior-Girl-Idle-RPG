@@ -31,6 +31,7 @@
     {"$GMObjectProperty":"v1","%Name":"gold","filters":[],"listItems":[],"multiselect":false,"name":"gold","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"distance_traveled","filters":[],"listItems":[],"multiselect":false,"name":"distance_traveled","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"distance_multiplier","filters":[],"listItems":[],"multiselect":false,"name":"distance_multiplier","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.25","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"coin_tier","filters":[],"listItems":[],"multiselect":false,"name":"coin_tier","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"coin_tiers.COPPER","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

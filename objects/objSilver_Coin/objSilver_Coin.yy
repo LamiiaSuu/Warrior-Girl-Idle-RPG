@@ -1,15 +1,22 @@
 {
   "$GMObject":"",
   "%Name":"objSilver_Coin",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"objSilver_Coin",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objBase_Coin","path":"objects/objBase_Coin/objBase_Coin.yy",},"propertyId":{"name":"gold_gain_per_click","path":"objects/objBase_Coin/objBase_Coin.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
+  ],
   "parent":{
-    "name":"Coins",
-    "path":"folders/Objects/Coins.yy",
+    "name":"Silver",
+    "path":"folders/Objects/Coins/Silver.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"objBase_Coin",
+    "path":"objects/objBase_Coin/objBase_Coin.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scrCoin_Tier_Cost",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scrCoin_Tier_Cost",
+  "parent":{
+    "name":"Game",
+    "path":"folders/Scripts/Enums/Game.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

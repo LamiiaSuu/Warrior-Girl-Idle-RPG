@@ -1,0 +1,7 @@
+enum coin_tiers{
+COPPER,
+SILVER,
+GOLD,
+PLATINUM,
+DIAMOND
+}

@@ -1,19 +1,18 @@
 {
   "$GMObject":"",
   "%Name":"objCopper_Coin",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":56,"eventType":6,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"objCopper_Coin",
   "overriddenProperties":[],
   "parent":{
-    "name":"Coins",
-    "path":"folders/Objects/Coins.yy",
+    "name":"Copper",
+    "path":"folders/Objects/Coins/Copper.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"objBase_Coin",
+    "path":"objects/objBase_Coin/objBase_Coin.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -36,9 +35,7 @@
     {"x":176.32654,"y":803.2653,},
   ],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v1","%Name":"gold_gain_per_click","filters":[],"listItems":[],"multiselect":false,"name":"gold_gain_per_click","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

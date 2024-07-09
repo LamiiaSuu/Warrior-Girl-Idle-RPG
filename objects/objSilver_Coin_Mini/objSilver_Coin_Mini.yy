@@ -6,8 +6,8 @@
   "name":"objSilver_Coin_Mini",
   "overriddenProperties":[],
   "parent":{
-    "name":"Coins",
-    "path":"folders/Objects/Coins.yy",
+    "name":"Silver",
+    "path":"folders/Objects/Coins/Silver.yy",
   },
   "parentObjectId":null,
   "persistent":false,

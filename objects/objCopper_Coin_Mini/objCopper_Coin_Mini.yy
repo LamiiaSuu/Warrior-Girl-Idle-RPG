@@ -10,8 +10,8 @@
   "name":"objCopper_Coin_Mini",
   "overriddenProperties":[],
   "parent":{
-    "name":"Coins",
-    "path":"folders/Objects/Coins.yy",
+    "name":"Copper",
+    "path":"folders/Objects/Coins/Copper.yy",
   },
   "parentObjectId":null,
   "persistent":false,

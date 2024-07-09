@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scrGame_Stats",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scrGame_Stats",
+  "parent":{
+    "name":"Game",
+    "path":"folders/Scripts/Enums/Game.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
