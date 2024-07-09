@@ -55,4 +55,16 @@ function take_damage(damage){
 
 }
 
+function take_heavy_damage(damage){
+
+	
+		if(objWarrior_Girl.hp - damage <= 0){
+			objWarrior_Girl.hp = 0
+		}else{
+			objWarrior_Girl.hp -= damage
+			objWarrior_Girl.state = WARRIOR_STATE.HURT
+		}
+
+}
+
 
