@@ -37,7 +37,7 @@ else
 	/// @DnDVersion : 1
 	/// @DnDHash : 40F467E9
 	/// @DnDParent : 29C80140
-	/// @DnDArgument : "expr" "true"
+	/// @DnDArgument : "expr" "false"
 	/// @DnDArgument : "var" "next_upgrade_affordable"
-	next_upgrade_affordable = true;
+	next_upgrade_affordable = false;
 }

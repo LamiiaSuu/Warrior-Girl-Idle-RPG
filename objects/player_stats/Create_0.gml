@@ -31,7 +31,8 @@ function getFighting(){
 }
 
 function level_up_coin(){
-	coin_tier +=1
+	coin_tier++
+
 
 }
 

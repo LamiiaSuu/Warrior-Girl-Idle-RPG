@@ -1,11 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"objCopper_Coin_Mini",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"objCopper_Coin_Mini",
   "overriddenProperties":[],
@@ -13,7 +9,10 @@
     "name":"Copper",
     "path":"folders/Objects/Coins/Copper.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"objBase_Coin_Mini",
+    "path":"objects/objBase_Coin_Mini/objBase_Coin_Mini.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,11 +26,7 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v1","%Name":"fade_speed","filters":[],"listItems":[],"multiselect":false,"name":"fade_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.02","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"alpha","filters":[],"listItems":[],"multiselect":false,"name":"alpha","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"gold_added","filters":[],"listItems":[],"multiselect":false,"name":"gold_added","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

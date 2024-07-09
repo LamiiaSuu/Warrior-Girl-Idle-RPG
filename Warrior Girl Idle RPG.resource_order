@@ -25,6 +25,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obj_UI_Background","order":7,"path":"objects/obj_UI_Background/obj_UI_Background.yy",},
+    {"name":"objBase_Coin_Mini","order":1,"path":"objects/objBase_Coin_Mini/objBase_Coin_Mini.yy",},
     {"name":"objCopper_Coin_Mini","order":1,"path":"objects/objCopper_Coin_Mini/objCopper_Coin_Mini.yy",},
     {"name":"objEnemy_Controller","order":1,"path":"objects/objEnemy_Controller/objEnemy_Controller.yy",},
     {"name":"objEnemy_Position_X","order":3,"path":"objects/objEnemy_Position_X/objEnemy_Position_X.yy",},

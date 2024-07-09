@@ -60,6 +60,7 @@
   "resources":[
     {"id":{"name":"fDungeon_Font","path":"fonts/fDungeon_Font/fDungeon_Font.yy",},},
     {"id":{"name":"obj_UI_Background","path":"objects/obj_UI_Background/obj_UI_Background.yy",},},
+    {"id":{"name":"objBase_Coin_Mini","path":"objects/objBase_Coin_Mini/objBase_Coin_Mini.yy",},},
     {"id":{"name":"objBase_Coin","path":"objects/objBase_Coin/objBase_Coin.yy",},},
     {"id":{"name":"objCopper_Coin_Mini","path":"objects/objCopper_Coin_Mini/objCopper_Coin_Mini.yy",},},
     {"id":{"name":"objCopper_Coin","path":"objects/objCopper_Coin/objCopper_Coin.yy",},},

@@ -1,6 +1,6 @@
 enum coin_tier_costs{
 SILVER = 50, //TESTING
 GOLD = 1000,
-PLATINUM = 10000
-
+PLATINUM = 10000,
+DIAMOND = 100000
 }

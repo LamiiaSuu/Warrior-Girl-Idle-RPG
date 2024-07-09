@@ -9,7 +9,10 @@
     "name":"Silver",
     "path":"folders/Objects/Coins/Silver.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"objBase_Coin_Mini",
+    "path":"objects/objBase_Coin_Mini/objBase_Coin_Mini.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
