@@ -4,6 +4,9 @@ attack_timer = attack_delay;
 
 alarm_set(0, 45);
 
+orig_y = y
+orig_x = x
+
 
 function change_sprite(sprite_name){
 // Change loose code to this.

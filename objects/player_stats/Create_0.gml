@@ -48,7 +48,7 @@ function take_damage(damage){
 			objWarrior_Girl.hp = 0
 		}else{
 			objWarrior_Girl.hp -= damage
-		if(objWarrior_Girl.state != WARRIOR_STATE.ATTACK_FULL && objWarrior_Girl.state != WARRIOR_STATE.ATTACK_ONCE){
+		if(objWarrior_Girl.state = WARRIOR_STATE.IDLE){
 			objWarrior_Girl.state = WARRIOR_STATE.HURT
 		}else{
 			objWarrior_Girl.image_blend = c_red

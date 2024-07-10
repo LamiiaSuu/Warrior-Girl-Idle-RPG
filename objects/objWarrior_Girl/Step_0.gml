@@ -76,6 +76,30 @@ case WARRIOR_STATE.HURT:
 
 break;
 
+case WARRIOR_STATE.DASH_STRIKE: 	
+
+	if(!(sprite_index == sprWarrior_Dash_Attack))
+	{
+		sprite_index = sprWarrior_Dash_Attack;
+		image_index = 0;
+		dash_attacked = false
+	}
+	
+	if (image_index >= 4 && !dash_attacked)
+		{
+		objEnemy_Controller.enemyTakeHeavyDamage(attack_damage*2)
+		dash_attacked = true
+		}
+	
+		if (image_index >= image_number-1)
+		{
+		state = WARRIOR_STATE.IDLE
+
+		}
+		
+
+break;
+
 
 case WARRIOR_STATE.SPRINTING_RIGHT:
 

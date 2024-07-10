@@ -1,1 +1,2 @@
+if(state != WARRIOR_STATE.DASH_STRIKE)
 state = WARRIOR_STATE.IDLE
