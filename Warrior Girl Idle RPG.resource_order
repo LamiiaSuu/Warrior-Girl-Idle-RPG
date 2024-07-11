@@ -40,6 +40,7 @@
     {"name":"Enemies","order":1,"path":"folders/Tile Sets/Enemies.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"fDungeon_Font_Small","order":1,"path":"fonts/fDungeon_Font_Small/fDungeon_Font_Small.yy",},
     {"name":"obj_UI_Background","order":6,"path":"objects/obj_UI_Background/obj_UI_Background.yy",},
     {"name":"objBase_Coin_Mini","order":1,"path":"objects/objBase_Coin_Mini/objBase_Coin_Mini.yy",},
     {"name":"objBorder_Square_Triangles","order":1,"path":"objects/objBorder_Square_Triangles/objBorder_Square_Triangles.yy",},
@@ -74,6 +75,7 @@
     {"name":"sprHermes_Boots","order":3,"path":"sprites/sprHermes_Boots/sprHermes_Boots.yy",},
     {"name":"sprOakWoods_Background_layer_2","order":1,"path":"sprites/sprOakWoods_Background_layer_2/sprOakWoods_Background_layer_2.yy",},
     {"name":"sprOakWoods_Background_layer_3","order":2,"path":"sprites/sprOakWoods_Background_layer_3/sprOakWoods_Background_layer_3.yy",},
+    {"name":"sprPassive_Ability","order":6,"path":"sprites/sprPassive_Ability/sprPassive_Ability.yy",},
     {"name":"sprSilver_Coin_Mini","order":3,"path":"sprites/sprSilver_Coin_Mini/sprSilver_Coin_Mini.yy",},
     {"name":"sprSilver_Coin","order":2,"path":"sprites/sprSilver_Coin/sprSilver_Coin.yy",},
     {"name":"sprSkeleton_Mace_Attack","order":4,"path":"sprites/sprSkeleton_Mace_Attack/sprSkeleton_Mace_Attack.yy",},
@@ -88,6 +90,7 @@
     {"name":"sprSword_Wooden","order":3,"path":"sprites/sprSword_Wooden/sprSword_Wooden.yy",},
     {"name":"sprWarrior_Attack","order":2,"path":"sprites/sprWarrior_Attack/sprWarrior_Attack.yy",},
     {"name":"sprWarrior_Dash_Attack","order":3,"path":"sprites/sprWarrior_Dash_Attack/sprWarrior_Dash_Attack.yy",},
+    {"name":"sprWarrior_Death","order":7,"path":"sprites/sprWarrior_Death/sprWarrior_Death.yy",},
     {"name":"sprWarrior_Hurt","order":5,"path":"sprites/sprWarrior_Hurt/sprWarrior_Hurt.yy",},
     {"name":"sprWarrior_Run","order":1,"path":"sprites/sprWarrior_Run/sprWarrior_Run.yy",},
     {"name":"sprWarrior_Slide","order":4,"path":"sprites/sprWarrior_Slide/sprWarrior_Slide.yy",},

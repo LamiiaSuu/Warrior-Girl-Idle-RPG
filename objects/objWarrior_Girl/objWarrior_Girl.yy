@@ -48,6 +48,7 @@
     {"$GMObjectProperty":"v1","%Name":"max_hp","filters":[],"listItems":[],"multiselect":false,"name":"max_hp","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"max_hp_base","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"hp","filters":[],"listItems":[],"multiselect":false,"name":"hp","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"max_hp","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"hp_per_level","filters":[],"listItems":[],"multiselect":false,"name":"hp_per_level","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"5","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"regeneration","filters":[],"listItems":[],"multiselect":false,"name":"regeneration","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0025","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -1,4 +1,4 @@
-attack_delay = room_speed / attack_speed;;
+attack_delay = room_speed / attack_speed;
 
 attack_timer = attack_delay;
 
@@ -8,9 +8,17 @@ orig_y = y
 orig_x = x
 
 
-function change_sprite(sprite_name){
-// Change loose code to this.
+function regenerate(){
+
+if(hp+ regeneration >= max_hp){
+	hp = max_hp
+}else{
+hp+=regeneration
 }
+
+}
+
+
 
 function trigger_fight(){
 		fighting = true;

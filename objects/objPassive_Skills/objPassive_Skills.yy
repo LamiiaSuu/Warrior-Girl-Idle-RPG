@@ -1,7 +1,13 @@
 {
   "$GMObject":"",
   "%Name":"objPassive_Skills",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":49,"eventType":9,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"objPassive_Skills",
   "overriddenProperties":[],
@@ -9,7 +15,10 @@
     "name":"Skill Buttons",
     "path":"folders/Objects/UI/Skill Buttons.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"objSkill_Button_Base",
+    "path":"objects/objSkill_Button_Base/objSkill_Button_Base.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +36,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sprPassive_Ability",
+    "path":"sprites/sprPassive_Ability/sprPassive_Ability.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

@@ -209,5 +209,24 @@ case WARRIOR_STATE.SLIDE:
 
 break;
 
+case WARRIOR_STATE.DEAD:
+	if(!(sprite_index == sprWarrior_Death))
+	{
+		sprite_index = sprWarrior_Death;
+		image_index = 0;
+		
+	}
+	if (image_index >= image_number-1)
+	image_speed = 0
+
+break;
+
 }
 
+if(hp = 0){
+state = WARRIOR_STATE.DEAD
+}
+
+if(!fighting){
+regenerate()
+}
