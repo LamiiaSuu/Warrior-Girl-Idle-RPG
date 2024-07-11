@@ -31,6 +31,18 @@ function enemyTakeHeavyDamage(damage) constructor
 	
 }
 
+function enemyTakeLightDamage(damage) 
+{
+	if(enemy_exists){
+		if(enemy_id.hp - damage <= 0){
+			enemy_id.hp = 0
+		}else{
+			enemy_id.hp -= damage
+		}
+	}
+	
+}
+
 function getEnemyDeathInitiated() constructor
 {
 	if(enemy_exists){

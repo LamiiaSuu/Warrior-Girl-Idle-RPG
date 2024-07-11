@@ -6,9 +6,24 @@ function addGold(amount){
 
 }
 
+function addHP(amount){
+	if(objWarrior_Girl.hp + amount >= objWarrior_Girl.max_hp)
+	objWarrior_Girl.hp = objWarrior_Girl.max_hp
+	else
+	objWarrior_Girl.hp += amount
+}
+
 function takeGold(amount){
 	gold -= amount
 
+}
+
+function enemyClicked(){
+	objEnemy_Controller.enemyTakeLightDamage(mouse_damage)
+}
+
+function characterClicked(){
+	addHP(mouse_heal)
 }
 
 function getGold(){

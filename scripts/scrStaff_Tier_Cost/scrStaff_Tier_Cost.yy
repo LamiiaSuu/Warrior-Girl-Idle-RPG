@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scrStaff_Tier_Cost",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scrStaff_Tier_Cost",
+  "parent":{
+    "name":"Staff_Shop",
+    "path":"folders/Scripts/Enums/Game/Staff_Shop.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

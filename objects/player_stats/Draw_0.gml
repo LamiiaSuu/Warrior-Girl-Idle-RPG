@@ -99,3 +99,24 @@ draw_text(x + 300, y + 000, string("LVL: ") + string(character_level));
 /// @DnDArgument : "caption" ""XP: ""
 /// @DnDArgument : "var" "xp_needed_for_next_level-xp"
 draw_text(x + 300, y + 100, string("XP: ") + string(xp_needed_for_next_level-xp));
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDVersion : 1
+/// @DnDHash : 6B54548B
+/// @DnDArgument : "x" "1450"
+/// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y_relative" "1"
+/// @DnDArgument : "caption" ""Click_Dmg: ""
+/// @DnDArgument : "var" "mouse_damage"
+draw_text(x + 1450, y + 0, string("Click_Dmg: ") + string(mouse_damage));
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDVersion : 1
+/// @DnDHash : 1629D80E
+/// @DnDArgument : "x" "1450"
+/// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y" "100"
+/// @DnDArgument : "y_relative" "1"
+/// @DnDArgument : "caption" ""Click_Heal: ""
+/// @DnDArgument : "var" "mouse_heal"
+draw_text(x + 1450, y + 100, string("Click_Heal: ") + string(mouse_heal));

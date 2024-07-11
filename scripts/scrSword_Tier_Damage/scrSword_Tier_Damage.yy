@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scrSword_Tier_Damage",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scrSword_Tier_Damage",
+  "parent":{
+    "name":"Sword_Shop",
+    "path":"folders/Scripts/Enums/Game/Sword_Shop.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

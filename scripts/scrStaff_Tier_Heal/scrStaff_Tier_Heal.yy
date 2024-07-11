@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scrStaff_Tier_Heal",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scrStaff_Tier_Heal",
+  "parent":{
+    "name":"Staff_Shop",
+    "path":"folders/Scripts/Enums/Game/Staff_Shop.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

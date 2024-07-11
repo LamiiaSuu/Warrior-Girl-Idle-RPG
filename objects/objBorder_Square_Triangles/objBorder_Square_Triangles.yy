@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"objWooden_Sword",
+  "%Name":"objBorder_Square_Triangles",
   "eventList":[],
   "managed":true,
-  "name":"objWooden_Sword",
+  "name":"objBorder_Square_Triangles",
   "overriddenProperties":[],
   "parent":{
-    "name":"Shop",
-    "path":"folders/Objects/UI/Shop.yy",
+    "name":"Borders",
+    "path":"folders/Objects/UI/Borders.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sprBorder_Square_Triangles",
+    "path":"sprites/sprBorder_Square_Triangles/sprBorder_Square_Triangles.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
