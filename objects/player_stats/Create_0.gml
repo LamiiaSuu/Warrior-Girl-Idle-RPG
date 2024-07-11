@@ -47,8 +47,21 @@ function addXP(xp){
 	}
 }
 
+function getXP(){
+	return xp
+}
+
+function get_xp_needed_for_next_level(){
+	return xp_needed_for_next_level
+}
+
+function get_xp_needed_for_last_level(){
+	return xp_needed_for_last_level
+}
+
 function level_up(){
 	character_level++
+	xp_needed_for_last_level = xp_needed_for_next_level
 	xp_needed_for_next_level *= 3
 	objWarrior_Girl.level_up()
 }

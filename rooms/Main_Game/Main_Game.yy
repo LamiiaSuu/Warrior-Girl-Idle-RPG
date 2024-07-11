@@ -25,6 +25,7 @@
     {"name":"inst_3A7BA6EB","path":"rooms/Main_Game/Main_Game.yy",},
     {"name":"inst_38DFFD1E","path":"rooms/Main_Game/Main_Game.yy",},
     {"name":"inst_5989EB0C","path":"rooms/Main_Game/Main_Game.yy",},
+    {"name":"inst_94C3313","path":"rooms/Main_Game/Main_Game.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -43,6 +44,7 @@
             {"$GMRInstance":"v1","%Name":"inst_3A7BA6EB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3A7BA6EB","objectId":{"name":"Healthbar","path":"objects/Healthbar/Healthbar.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.9117646,"scaleY":1.9117646,"x":247.5294,"y":85.882355,},
             {"$GMRInstance":"v1","%Name":"inst_38DFFD1E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_38DFFD1E","objectId":{"name":"objHealth","path":"objects/objHealth/objHealth.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.9137641,"scaleY":2.1262333,"x":155.33734,"y":80.7851,},
             {"$GMRInstance":"v1","%Name":"inst_5989EB0C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5989EB0C","objectId":{"name":"objHeart","path":"objects/objHeart/objHeart.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.9234217,"scaleY":1.8966211,"x":63.0,"y":40.0,},
+            {"$GMRInstance":"v1","%Name":"inst_94C3313","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_94C3313","objectId":{"name":"objXP","path":"objects/objXP/objXP.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0009,"scaleY":1.9194183,"x":144.0,"y":102.51651,},
           ],"layers":[],"name":"Health","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
         {"$GMRInstanceLayer":"","%Name":"Coin_Particles","depth":500,"effectEnabled":true,"effectType":"none","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Coin_Particles","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
         {"$GMRInstanceLayer":"","%Name":"Coin_Upgrade","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
