@@ -1,5 +1,14 @@
 draw_set_font(fDungeon_Font);
 
+function get_hp(){
+	return objWarrior_Girl.hp
+
+}
+
+function get_max_hp(){
+	return objWarrior_Girl.max_hp
+
+}
 
 function addGold(amount){
 	gold += amount
