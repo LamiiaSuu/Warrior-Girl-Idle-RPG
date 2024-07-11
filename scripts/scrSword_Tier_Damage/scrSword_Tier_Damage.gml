@@ -1,7 +1,7 @@
-//Take /4
+//Take /10
 enum sword_tier_damage{
-WOOD = 1,
-IRON = 4,
-GOLD = 16,
-BLOOD = 64
+WOOD = 4,
+IRON = 16,
+GOLD = 64,
+BLOOD = 256
 }
