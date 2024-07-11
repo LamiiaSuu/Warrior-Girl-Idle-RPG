@@ -93,11 +93,31 @@ case WARRIOR_STATE.DASH_STRIKE:
 		objEnemy_Controller.enemyTakeHeavyDamage(attack_damage*2)
 		dash_attacked = true
 		}
-	
-		if (image_index >= image_number-1)
-		{
-		state = WARRIOR_STATE.IDLE
 
+	
+	if (image_index >= image_number-1)
+	{
+		state = WARRIOR_STATE.IDLE
+		//MOVE
+		x = orig_x
+	}else{
+		//MOVE
+		target_x = objEnemy_Position_X.x-70;
+		if (image_index <= 4)
+		acceleration = global_enemy_states.FIGHT_APPROACHING_SPEED_MODIFIER / 65;
+		if (image_index > 4){
+		acceleration = 0;
+		}
+		
+		distance = point_distance(x, y, target_x, y);
+
+		direction = point_direction(x, y, target_x, y);
+
+		current_speed = distance * acceleration;
+
+		move_x = lengthdir_x(current_speed, direction);
+
+		x += move_x;
 		}
 		
 
