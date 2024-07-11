@@ -43,6 +43,7 @@
     {"$GMObjectProperty":"v1","%Name":"attack_damage","filters":[],"listItems":[],"multiselect":false,"name":"attack_damage","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"7.5","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"attack_speed","filters":[],"listItems":[],"multiselect":false,"name":"attack_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.33","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"attack_timer","filters":[],"listItems":[],"multiselect":false,"name":"attack_timer","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"xp_worth","filters":[],"listItems":[],"multiselect":false,"name":"xp_worth","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"100","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

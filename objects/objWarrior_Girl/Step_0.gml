@@ -1,4 +1,6 @@
 
+
+attack_delay = room_speed / attack_speed;
 //States / Animation States
 switch(state){
 	
@@ -77,7 +79,8 @@ case WARRIOR_STATE.HURT:
 break;
 
 case WARRIOR_STATE.DASH_STRIKE: 	
-
+	
+	image_speed = 1
 	if(!(sprite_index == sprWarrior_Dash_Attack))
 	{
 		sprite_index = sprWarrior_Dash_Attack;
@@ -136,7 +139,7 @@ case WARRIOR_STATE.RUNNING_LEFT:
 break;
 
 case WARRIOR_STATE.ATTACK_FULL:
-
+		image_speed = 1 + ((attack_speed-attack_speed_base)/2);
 	if(!(sprite_index == sprWarrior_Attack))
 	{
 		sprite_index = sprWarrior_Attack;
@@ -152,11 +155,11 @@ case WARRIOR_STATE.ATTACK_FULL:
 		objEnemy_Controller.enemyTakeDamage(attack_damage)
 		attack_two = true;
 	}
-	image_speed = 1;
+
 
 	if (image_index >= image_number-1)
 	{
-		alarm_set(1,5)
+		state = WARRIOR_STATE.IDLE
 		
 	}
 	

@@ -28,3 +28,10 @@ function reset_attacks(){
 function full_attack(){
     state = WARRIOR_STATE.ATTACK_FULL
 }
+
+function level_up(){
+	max_hp+= hp_per_level
+	hp+=hp_per_level
+	attack_speed += attack_speed_per_level
+	attack_damage += attack_damage_per_level
+}

@@ -120,6 +120,7 @@ case skeleton_mace_state.DEAD:
 		image_speed = 0;
 		alarm_set(0,30)
 		player_stats.addGold(gold_worth)
+		player_stats.addXP(xp_worth)
 		gold_coin_instance = instance_create_layer(x, y-130, "Coin_Particles", objCopper_Coin_Mini);
 		gold_coin_instance.gold_added = gold_worth
 		gold_coin_instance.image_yscale *=3

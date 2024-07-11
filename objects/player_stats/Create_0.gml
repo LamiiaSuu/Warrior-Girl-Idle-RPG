@@ -1,5 +1,6 @@
 draw_set_font(fDungeon_Font);
 
+
 function addGold(amount){
 	gold += amount
 
@@ -13,6 +14,19 @@ function takeGold(amount){
 function getGold(){
 	return gold
 
+}
+
+function addXP(xp){
+	self.xp += xp
+	if(self.xp >= xp_needed_for_next_level){
+		level_up()
+	}
+}
+
+function level_up(){
+	character_level++
+	xp_needed_for_next_level *= 3
+	objWarrior_Girl.level_up()
 }
 
 function getCharacterX(){

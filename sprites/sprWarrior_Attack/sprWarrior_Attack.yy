@@ -70,7 +70,7 @@
     },
     "name":"sprWarrior_Attack",
     "playback":1,
-    "playbackSpeed":13.0,
+    "playbackSpeed":14.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
