@@ -9,11 +9,11 @@ orig_x = x
 
 
 function regenerate(){
-
-if(hp+ regeneration >= max_hp){
+hp_per_second = regeneration / room_speed
+if(hp+ hp_per_second >= max_hp){
 	hp = max_hp
 }else{
-hp+=regeneration
+hp+=hp_per_second
 }
 
 }
