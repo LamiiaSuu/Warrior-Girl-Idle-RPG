@@ -36,6 +36,7 @@
     {"name":"objEnemy_Position_X","order":3,"path":"objects/objEnemy_Position_X/objEnemy_Position_X.yy",},
     {"name":"objEnemy_Spawner","order":2,"path":"objects/objEnemy_Spawner/objEnemy_Spawner.yy",},
     {"name":"objSilver_Coin_Mini","order":1,"path":"objects/objSilver_Coin_Mini/objSilver_Coin_Mini.yy",},
+    {"name":"objSkill_Button_Base","order":1,"path":"objects/objSkill_Button_Base/objSkill_Button_Base.yy",},
     {"name":"scrCoin_Tier_Cost","order":1,"path":"scripts/scrCoin_Tier_Cost/scrCoin_Tier_Cost.yy",},
     {"name":"scrGlobal_Enemy_States","order":1,"path":"scripts/scrGlobal_Enemy_States/scrGlobal_Enemy_States.yy",},
     {"name":"scrWarrior_State","order":1,"path":"scripts/scrWarrior_State/scrWarrior_State.yy",},

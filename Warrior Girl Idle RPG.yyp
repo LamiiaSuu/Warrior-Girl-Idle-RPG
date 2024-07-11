@@ -79,6 +79,7 @@
     {"id":{"name":"objSilver_Coin_Mini","path":"objects/objSilver_Coin_Mini/objSilver_Coin_Mini.yy",},},
     {"id":{"name":"objSilver_Coin","path":"objects/objSilver_Coin/objSilver_Coin.yy",},},
     {"id":{"name":"objSkeleton_Mace","path":"objects/objSkeleton_Mace/objSkeleton_Mace.yy",},},
+    {"id":{"name":"objSkill_Button_Base","path":"objects/objSkill_Button_Base/objSkill_Button_Base.yy",},},
     {"id":{"name":"objUpdate_Light","path":"objects/objUpdate_Light/objUpdate_Light.yy",},},
     {"id":{"name":"objWarrior_Girl","path":"objects/objWarrior_Girl/objWarrior_Girl.yy",},},
     {"id":{"name":"objWooden_Sword","path":"objects/objWooden_Sword/objWooden_Sword.yy",},},
