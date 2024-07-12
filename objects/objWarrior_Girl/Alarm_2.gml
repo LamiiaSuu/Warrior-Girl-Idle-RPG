@@ -1,0 +1,1 @@
+    player_stats.game_over_restart()

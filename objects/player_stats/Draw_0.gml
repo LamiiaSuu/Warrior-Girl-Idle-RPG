@@ -170,3 +170,14 @@ draw_text(x + 10, y + 850, string("LVL: ") + string(character_level));
 /// @DnDArgument : "caption" ""XP: ""
 /// @DnDArgument : "var" "xp_needed_for_next_level-xp"
 draw_text(x + 250, y + 950, string("XP: ") + string(xp_needed_for_next_level-xp));
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDVersion : 1
+/// @DnDHash : 4A96C4F2
+/// @DnDArgument : "x" "250"
+/// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y" "900"
+/// @DnDArgument : "y_relative" "1"
+/// @DnDArgument : "caption" ""Regen: ""
+/// @DnDArgument : "var" "objWarrior_Girl.regeneration"
+draw_text(x + 250, y + 900, string("Regen: ") + string(objWarrior_Girl.regeneration));

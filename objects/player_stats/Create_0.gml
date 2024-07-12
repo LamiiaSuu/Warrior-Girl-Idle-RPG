@@ -5,6 +5,11 @@ function get_hp(){
 
 }
 
+function game_over_restart(){
+	game_restart()
+
+}
+
 function get_max_hp(){
 	return objWarrior_Girl.max_hp
 
@@ -28,8 +33,10 @@ function takeGold(amount){
 }
 
 function enemyClicked(){
-	objEnemy_Controller.enemyTakeLightDamage(mouse_damage)
-	instance_create_layer(mouse_x, mouse_y, "Coin_Particles", objEnemy_Clicked_Particle)
+	if(mouse_damage>0){
+		objEnemy_Controller.enemyTakeLightDamage(mouse_damage)
+		instance_create_layer(mouse_x, mouse_y, "Coin_Particles", objEnemy_Clicked_Particle)
+	}
 }
 
 function characterClicked(){

@@ -13,7 +13,7 @@ hp_per_second = regeneration / room_speed
 if(hp+ hp_per_second >= max_hp){
 	hp = max_hp
 }else{
-hp+=hp_per_second
+	hp+=hp_per_second
 }
 
 }
@@ -42,4 +42,10 @@ function level_up(){
 	hp+=hp_per_level
 	attack_speed += attack_speed_per_level
 	attack_damage += attack_damage_per_level
+	regeneration += regeneration_per_level
+}
+
+function dead(){
+
+	alarm_set(2, 60)
 }
