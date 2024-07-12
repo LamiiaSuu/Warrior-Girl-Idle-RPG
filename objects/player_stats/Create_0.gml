@@ -29,10 +29,15 @@ function takeGold(amount){
 
 function enemyClicked(){
 	objEnemy_Controller.enemyTakeLightDamage(mouse_damage)
+	instance_create_layer(mouse_x, mouse_y, "Coin_Particles", objEnemy_Clicked_Particle)
 }
 
 function characterClicked(){
-	addHP(mouse_heal)
+	if(mouse_heal>0){
+		addHP(mouse_heal)
+		instance_create_layer(mouse_x, mouse_y, "Coin_Particles", objCharacter_Clicked_Particle)
+	}
+
 }
 
 function getGold(){
