@@ -10,7 +10,7 @@ if (cooldown_left > 0) {
     draw_set_color(c_white);
 	draw_set_font(fDungeon_Font);
 
-    draw_text(x, y, string(cooldown_seconds));
+    draw_text(x-33, y-10, string(cooldown_seconds));
 }
 // Unlock Display (LEVEL)
 if (player_stats.character_level < level_unlocked && draw_tooltip) {
