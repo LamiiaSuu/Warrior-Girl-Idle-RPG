@@ -79,7 +79,8 @@ case WARRIOR_STATE.HURT:
 break;
 
 case WARRIOR_STATE.RIPOSTE: 	
-
+	if(x != orig_x)
+		x = orig_x
 	if(!(sprite_index == sprWarrior_Riposte))
 	{
 		sprite_index = sprWarrior_Riposte;
