@@ -18,6 +18,11 @@ if(hp+ hp_per_second >= max_hp){
 
 }
 
+function set_riposte_damage(damage){
+	riposte_damage = damage
+
+}
+
 
 
 function trigger_fight(){

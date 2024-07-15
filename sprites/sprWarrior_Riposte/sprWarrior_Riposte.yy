@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"sprWarrior_Deflect",
+  "%Name":"sprWarrior_Riposte",
   "bboxMode":0,
   "bbox_bottom":42,
   "bbox_left":11,
@@ -21,19 +21,19 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"28224537-817a-46a6-aeb2-9830660827dd","blendMode":0,"displayName":"default","isLocked":false,"name":"28224537-817a-46a6-aeb2-9830660827dd","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"sprWarrior_Deflect",
+  "name":"sprWarrior_Riposte",
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Ability Icons",
-    "path":"folders/Sprites/Characters/Warrior_Girl/Ability Icons.yy",
+    "name":"Skills",
+    "path":"folders/Sprites/UI/Skills.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"sprWarrior_Deflect",
+    "%Name":"sprWarrior_Riposte",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"sprWarrior_Deflect",
+    "name":"sprWarrior_Riposte",
     "playback":1,
     "playbackSpeed":14.0,
     "playbackSpeedType":0,
@@ -69,7 +69,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fd493e64-93c0-4c1c-bd1a-4ff881d63752","path":"sprites/sprWarrior_Deflect/sprWarrior_Deflect.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fd493e64-93c0-4c1c-bd1a-4ff881d63752","path":"sprites/sprWarrior_Riposte/sprWarrior_Riposte.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"c4be6d61-568a-4144-902c-8c639b9ca8b6","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

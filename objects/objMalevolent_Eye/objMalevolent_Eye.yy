@@ -8,13 +8,13 @@
   "managed":true,
   "name":"objMalevolent_Eye",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objEnemy_Base","path":"objects/objEnemy_Base/objEnemy_Base.yy",},"propertyId":{"name":"walk_speed","path":"objects/objEnemy_Base/objEnemy_Base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"9",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objEnemy_Base","path":"objects/objEnemy_Base/objEnemy_Base.yy",},"propertyId":{"name":"walk_speed","path":"objects/objEnemy_Base/objEnemy_Base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"7",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objEnemy_Base","path":"objects/objEnemy_Base/objEnemy_Base.yy",},"propertyId":{"name":"attack_speed","path":"objects/objEnemy_Base/objEnemy_Base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.55",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objEnemy_Base","path":"objects/objEnemy_Base/objEnemy_Base.yy",},"propertyId":{"name":"attack_damage","path":"objects/objEnemy_Base/objEnemy_Base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objEnemy_Base","path":"objects/objEnemy_Base/objEnemy_Base.yy",},"propertyId":{"name":"xp_worth","path":"objects/objEnemy_Base/objEnemy_Base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"100",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objEnemy_Base","path":"objects/objEnemy_Base/objEnemy_Base.yy",},"propertyId":{"name":"attack_damage","path":"objects/objEnemy_Base/objEnemy_Base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"6",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objEnemy_Base","path":"objects/objEnemy_Base/objEnemy_Base.yy",},"propertyId":{"name":"xp_worth","path":"objects/objEnemy_Base/objEnemy_Base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"75",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objEnemy_Base","path":"objects/objEnemy_Base/objEnemy_Base.yy",},"propertyId":{"name":"state","path":"objects/objEnemy_Base/objEnemy_Base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"malevolent_eye_state.APPROACHING",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objEnemy_Base","path":"objects/objEnemy_Base/objEnemy_Base.yy",},"propertyId":{"name":"max_hp","path":"objects/objEnemy_Base/objEnemy_Base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"23.5",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objEnemy_Base","path":"objects/objEnemy_Base/objEnemy_Base.yy",},"propertyId":{"name":"gold_worth","path":"objects/objEnemy_Base/objEnemy_Base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"35",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objEnemy_Base","path":"objects/objEnemy_Base/objEnemy_Base.yy",},"propertyId":{"name":"max_hp","path":"objects/objEnemy_Base/objEnemy_Base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"27.5",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objEnemy_Base","path":"objects/objEnemy_Base/objEnemy_Base.yy",},"propertyId":{"name":"gold_worth","path":"objects/objEnemy_Base/objEnemy_Base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"15",},
   ],
   "parent":{
     "name":"Enemies",

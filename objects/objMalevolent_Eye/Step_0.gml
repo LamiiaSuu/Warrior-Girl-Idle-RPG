@@ -1,6 +1,3 @@
-show_debug_message(state)
-show_debug_message(objEnemy_Controller.inFight)
-show_debug_message(fight_positioned)
 if(objEnemy_Controller.inFight && !fight_positioned){
 	draw = true;
 		if(!(sprite_index == sprMalevolent_Eye_Flight))

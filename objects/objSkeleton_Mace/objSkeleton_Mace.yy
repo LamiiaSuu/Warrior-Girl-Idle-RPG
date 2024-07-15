@@ -8,10 +8,10 @@
   "managed":true,
   "name":"objSkeleton_Mace",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objEnemy_Base","path":"objects/objEnemy_Base/objEnemy_Base.yy",},"propertyId":{"name":"gold_worth","path":"objects/objEnemy_Base/objEnemy_Base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"150",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objEnemy_Base","path":"objects/objEnemy_Base/objEnemy_Base.yy",},"propertyId":{"name":"gold_worth","path":"objects/objEnemy_Base/objEnemy_Base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"75",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objEnemy_Base","path":"objects/objEnemy_Base/objEnemy_Base.yy",},"propertyId":{"name":"attack_damage","path":"objects/objEnemy_Base/objEnemy_Base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"15",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objEnemy_Base","path":"objects/objEnemy_Base/objEnemy_Base.yy",},"propertyId":{"name":"max_hp","path":"objects/objEnemy_Base/objEnemy_Base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"75",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objEnemy_Base","path":"objects/objEnemy_Base/objEnemy_Base.yy",},"propertyId":{"name":"xp_worth","path":"objects/objEnemy_Base/objEnemy_Base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"300",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objEnemy_Base","path":"objects/objEnemy_Base/objEnemy_Base.yy",},"propertyId":{"name":"xp_worth","path":"objects/objEnemy_Base/objEnemy_Base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"250",},
   ],
   "parent":{
     "name":"Enemies",

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Ability Icons",
-    "path":"folders/Sprites/Characters/Warrior_Girl/Ability Icons.yy",
+    "name":"Skills",
+    "path":"folders/Sprites/UI/Skills.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

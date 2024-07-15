@@ -78,6 +78,41 @@ case WARRIOR_STATE.HURT:
 
 break;
 
+case WARRIOR_STATE.RIPOSTE: 	
+
+	if(!(sprite_index == sprWarrior_Riposte))
+	{
+		sprite_index = sprWarrior_Riposte;
+		image_index = 0;
+		
+	}
+	
+
+break;
+
+case WARRIOR_STATE.RIPOSTE_STRIKE: 	
+
+	if(!(sprite_index == sprWarrior_Riposte_Attack))
+	{
+		sprite_index = sprWarrior_Riposte_Attack;
+		image_index = 0;
+		
+	}
+	
+		if(image_index >= 5 && !riposte_damage_dealt){
+			objEnemy_Controller.enemyTakeHeavyDamage(riposte_damage)
+			riposte_damage_dealt = true
+		}
+	
+		if (image_index >= image_number-1)
+		{
+			state = WARRIOR_STATE.IDLE
+			riposte_damage_dealt = false
+		}
+	
+
+break;
+
 case WARRIOR_STATE.DASH_STRIKE: 	
 	
 	image_speed = 1

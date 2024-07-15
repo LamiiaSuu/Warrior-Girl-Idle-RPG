@@ -11,8 +11,8 @@ draw_set_font(fDungeon_Font);
 /// @DnDArgument : "x" "objHealth.x+(objHealth.sprite_width)+35"
 /// @DnDArgument : "y" "objHealth.y-35"
 /// @DnDArgument : "caption" ""HP: ""
-/// @DnDArgument : "var" "objWarrior_Girl.hp"
-draw_text(objHealth.x+(objHealth.sprite_width)+35, objHealth.y-35, string("HP: ") + string(objWarrior_Girl.hp));
+/// @DnDArgument : "var" "round(objWarrior_Girl.hp)"
+draw_text(objHealth.x+(objHealth.sprite_width)+35, objHealth.y-35, string("HP: ") + string(round(objWarrior_Girl.hp)));
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1

@@ -22,9 +22,9 @@ function addGold(amount){
 
 function addHP(amount){
 	if(objWarrior_Girl.hp + amount >= objWarrior_Girl.max_hp)
-	objWarrior_Girl.hp = objWarrior_Girl.max_hp
+		objWarrior_Girl.hp = objWarrior_Girl.max_hp
 	else
-	objWarrior_Girl.hp += amount
+		objWarrior_Girl.hp += amount
 }
 
 function takeGold(amount){
@@ -106,7 +106,10 @@ function level_up_coin(){
 
 function take_damage(damage){
 
-	
+	if(objWarrior_Girl.state == WARRIOR_STATE.RIPOSTE){
+			objWarrior_Girl.set_riposte_damage(damage*2)
+			objWarrior_Girl.state = WARRIOR_STATE.RIPOSTE_STRIKE
+	}else{
 		if(objWarrior_Girl.hp - damage <= 0){
 			objWarrior_Girl.hp = 0
 		}else{
@@ -120,19 +123,22 @@ function take_damage(damage){
 		
 		
 		}
-
+	}
 }
 
 function take_heavy_damage(damage){
 
-	
+	if(objWarrior_Girl.state == WARRIOR_STATE.RIPOSTE){
+			objWarrior_Girl.set_riposte_damage(damage*2)
+			objWarrior_Girl.state = WARRIOR_STATE.RIPOSTE_STRIKE
+	}else{
 		if(objWarrior_Girl.hp - damage <= 0){
 			objWarrior_Girl.hp = 0
 		}else{
 			objWarrior_Girl.hp -= damage
 			objWarrior_Girl.state = WARRIOR_STATE.HURT
 		}
-
+	}
 }
 
 
