@@ -5,8 +5,25 @@ function enemyTakeDamage(damage) constructor
 			enemy_id.hp = 0
 		}else{
 			enemy_id.hp -= damage
-		if(enemy_id.state != skeleton_mace_state.ATTACK){
-			enemy_id.state = skeleton_mace_state.HURT
+			
+		if(!enemy_id.is_attacking){
+			switch(enemy_id.object_index){
+			
+				case objSkeleton_Mace:
+			
+					enemy_id.state = skeleton_mace_state.HURT
+			
+				break
+			
+				case objMalevolent_Eye:
+			
+					enemy_id.state = malevolent_eye_state.HIT
+			
+				break
+			
+			}
+			
+			
 		}else{
 			enemy_id.image_blend = c_red
 			alarm_set(0,5)

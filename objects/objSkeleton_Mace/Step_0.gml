@@ -150,7 +150,7 @@ case skeleton_mace_state.WALKING_LEFT:
 break;
 
 case skeleton_mace_state.ATTACK:
-
+	is_attacking = true;
 	if(!(sprite_index == sprSkeleton_Mace_Attack))
 	{
 		sprite_index = sprSkeleton_Mace_Attack;
@@ -171,9 +171,10 @@ case skeleton_mace_state.ATTACK:
 		if (image_index >= image_number-1)
 		{
 			state = skeleton_mace_state.IDLE
+			is_attacking = false
 		}
 
-
+	
 break;
 
 case skeleton_mace_state.APPROACHING:

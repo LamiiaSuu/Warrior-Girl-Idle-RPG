@@ -1,0 +1,11 @@
+enum malevolent_eye_state{
+ATTACK,
+SPECIAL,
+FLIGHT,
+FLYING_LEFT,
+FLYING_RIGHT,
+DEATH,
+HIT,
+APPROACHING
+
+}

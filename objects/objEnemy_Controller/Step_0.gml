@@ -30,17 +30,55 @@ if(instance_exists(enemy_id) == false)
 /// @DnDArgument : "value" "enemy_spawn_distance"
 if(player_stats.distance_traveled >= enemy_spawn_distance)
 {
-	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDAction : YoYo Games.Random.Get_Random_Number
 	/// @DnDVersion : 1
-	/// @DnDHash : 523B26AD
+	/// @DnDHash : 2D606514
 	/// @DnDParent : 167DB5CA
-	/// @DnDArgument : "xpos" "objEnemy_Spawner.x"
-	/// @DnDArgument : "ypos" "objEnemy_Spawner.y"
-	/// @DnDArgument : "var" "enemy_id"
-	/// @DnDArgument : "objectid" "objSkeleton_Mace"
-	/// @DnDArgument : "layer" ""Enemy_Instances""
-	/// @DnDSaveInfo : "objectid" "objSkeleton_Mace"
-	enemy_id = instance_create_layer(objEnemy_Spawner.x, objEnemy_Spawner.y, "Enemy_Instances", objSkeleton_Mace);
+	/// @DnDArgument : "var" "random_int"
+	/// @DnDArgument : "type" "1"
+	/// @DnDArgument : "min" "1"
+	/// @DnDArgument : "max" "5"
+	random_int = floor(random_range(1, 5 + 1));
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 4F335838
+	/// @DnDParent : 167DB5CA
+	/// @DnDArgument : "var" "random_int"
+	/// @DnDArgument : "value" "5"
+	if(random_int == 5)
+	{
+		/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 523B26AD
+		/// @DnDParent : 4F335838
+		/// @DnDArgument : "xpos" "objEnemy_Spawner.x"
+		/// @DnDArgument : "ypos" "objEnemy_Spawner.y"
+		/// @DnDArgument : "var" "enemy_id"
+		/// @DnDArgument : "objectid" "objSkeleton_Mace"
+		/// @DnDArgument : "layer" ""Enemy_Instances""
+		/// @DnDSaveInfo : "objectid" "objSkeleton_Mace"
+		enemy_id = instance_create_layer(objEnemy_Spawner.x, objEnemy_Spawner.y, "Enemy_Instances", objSkeleton_Mace);
+	}
+
+	/// @DnDAction : YoYo Games.Common.Else
+	/// @DnDVersion : 1
+	/// @DnDHash : 292B78F5
+	/// @DnDParent : 167DB5CA
+	else
+	{
+		/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 77125FF0
+		/// @DnDParent : 292B78F5
+		/// @DnDArgument : "xpos" "objEnemy_Spawner.x"
+		/// @DnDArgument : "ypos" "objEnemy_Spawner.y"
+		/// @DnDArgument : "var" "enemy_id"
+		/// @DnDArgument : "objectid" "objMalevolent_Eye"
+		/// @DnDArgument : "layer" ""Enemy_Instances""
+		/// @DnDSaveInfo : "objectid" "objMalevolent_Eye"
+		enemy_id = instance_create_layer(objEnemy_Spawner.x, objEnemy_Spawner.y, "Enemy_Instances", objMalevolent_Eye);
+	}
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1

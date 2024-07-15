@@ -150,7 +150,7 @@ case skeleton_mace_state.WALKING_LEFT:
 break;
 
 case skeleton_mace_state.ATTACK:
-
+	
 	if(!(sprite_index == sprSkeleton_Mace_Attack))
 	{
 		sprite_index = sprSkeleton_Mace_Attack;
