@@ -3,7 +3,7 @@ self.image_xscale = -(self.image_xscale);
 image_xscale *=7;
 image_yscale *=7;
 
-attack_delay = room_speed / attack_speed;;
+attack_delay = room_speed / attack_speed;
 
 attack_timer = attack_delay;
 

@@ -1,4 +1,4 @@
-function enemyTakeDamage(damage) constructor
+function enemyTakeDamage(damage)
 {
 	if(enemy_exists){
 		if(enemy_id.hp - damage <= 0){
@@ -35,7 +35,7 @@ function enemyTakeDamage(damage) constructor
 	
 }
 
-function enemyTakeHeavyDamage(damage) constructor
+function enemyTakeHeavyDamage(damage)
 {
 	if(enemy_exists){
 		if(enemy_id.hp - damage <= 0){
@@ -60,7 +60,7 @@ function enemyTakeLightDamage(damage)
 	
 }
 
-function getEnemyDeathInitiated() constructor
+function getEnemyDeathInitiated()
 {
 	if(enemy_exists){
 		return enemy_id.death_initiated
