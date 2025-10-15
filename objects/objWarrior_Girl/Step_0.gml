@@ -2,11 +2,14 @@
 
 attack_delay = room_speed / attack_speed;
 //States / Animation States
+
+
+
+
 switch(state){
 	
 	
 case WARRIOR_STATE.IDLE: 
-
 	if(!(sprite_index == sprWarrior_Idle))
 	{
 		sprite_index = sprWarrior_Idle;
@@ -78,25 +81,30 @@ case WARRIOR_STATE.HURT:
 
 break;
 
-case WARRIOR_STATE.RIPOSTE: 	
-	if(x != orig_x)
-		x = orig_x
-	if(!(sprite_index == sprWarrior_Riposte))
-	{
-		sprite_index = sprWarrior_Riposte;
-		image_index = 0;
-		
-	}
-	
+case WARRIOR_STATE.RIPOSTE:
+	reset_attacks()
 
+    // Snap to original position
+    if (x != orig_x)
+        x = orig_x;
+
+    // Enter the animation once
+    if (sprite_index != sprWarrior_Riposte) {
+        sprite_index = sprWarrior_Riposte;
+        image_index = 0;
+		alarm_set(3,75);
+    }
+	
 break;
 
-case WARRIOR_STATE.RIPOSTE_STRIKE: 	
 
+case WARRIOR_STATE.RIPOSTE_STRIKE: 	
+	image_speed = 1;
 	if(!(sprite_index == sprWarrior_Riposte_Attack))
 	{
 		sprite_index = sprWarrior_Riposte_Attack;
 		image_index = 0;
+		
 		
 	}
 	

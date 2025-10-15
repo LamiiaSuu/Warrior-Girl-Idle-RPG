@@ -2,7 +2,9 @@ attack_delay = room_speed / attack_speed;
 
 attack_timer = attack_delay;
 
+
 alarm_set(0, 45);
+
 
 orig_y = y
 orig_x = x
